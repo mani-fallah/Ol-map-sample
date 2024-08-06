@@ -6,7 +6,6 @@
   Launch demo modal
 </button>
 
-<!-- Modal -->
 <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -18,12 +17,8 @@
       </div>
       <div class="modal-body" style="height: 300px">
         <div class="left-bar"></div>
-        <div id="olmap" class="map-container h-100"></div>
+        <div id="ol-map" class="map-container h-100"></div>
         <button (click)="showMapDetails()" style="position: absolute;bottom: 0;left: 50%">submit</button>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>

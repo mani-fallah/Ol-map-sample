@@ -50,7 +50,7 @@ export class MapComponent implements OnInit {
             new Zoom()
           ]
           ,
-          target: 'olmap'
+          target: 'ol-map'
         });
 
         const markers:any = new VectorLayer({
