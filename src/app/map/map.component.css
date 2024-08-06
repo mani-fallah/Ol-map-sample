@@ -20,8 +20,17 @@ main {
 }
 .map-container {
   flex-grow: 1;
+  border: 2px solid black;
+
 }
+
+
 footer {
   background-color: var(--header-color);
   padding: 1em;
+}
+button.ol-zoom-in{
+  background-color: red;
+  border:none;
+
 }
